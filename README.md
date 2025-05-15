@@ -1,5 +1,7 @@
 # 🚀 Memgraph MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@memgraph/mcp-memgraph)](https://smithery.ai/server/@memgraph/mcp-memgraph)
+
 Memgraph MCP Server is a lightweight server implementation of the Model Context Protocol (MCP) designed to connect Memgraph with LLMs.
 
 ![mcp-server](./mcp-server.png)
@@ -7,6 +9,14 @@ Memgraph MCP Server is a lightweight server implementation of the Model Context 
 ## ⚡ Quick start
 
 > 📹 [Memgraph MCP Server Quick Start video](https://www.youtube.com/watch?v=0Tjw5QWj_qY)
+
+### Installing via Smithery
+
+To install Memgraph MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@memgraph/mcp-memgraph):
+
+```bash
+npx -y @smithery/cli install @memgraph/mcp-memgraph --client claude
+```
 
 ### 1. Run Memgraph MCP Server
 
