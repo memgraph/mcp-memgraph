@@ -1,6 +1,6 @@
 > [!IMPORTANT]  
-> This repository has been merged into the [Memgraph AI Toolkit](https://github.com/memgraph/ai-toolkit) monorepo to avoid duplicating tools.  
-> It will be deleted in one month—please follow the [MCP integration](https://github.com/memgraph/ai-toolkit/tree/main/integrations/mcp-memgraph) there for all future development, and feel free to open issues or PRs in that repo.
+> **This repository has been merged into the [Memgraph AI Toolkit](https://github.com/memgraph/ai-toolkit) monorepo to avoid duplicating tools.  
+> It will be deleted in one month—please follow the [MCP integration](https://github.com/memgraph/ai-toolkit/tree/main/integrations/mcp-memgraph) there for all future development, and feel free to open issues or PRs in that repo.**
 
 # 🚀 Memgraph MCP Server
 
