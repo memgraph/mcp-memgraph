@@ -50,6 +50,28 @@ Example config:
    }
 }
 ```
+
+For custom Memgraph configurations, you can optionally add environment variables:
+```
+{
+    "mcpServers": {
+      "mpc-memgraph": {
+        "command": "/Users/katelatte/.local/bin/uv",
+        "args": [
+            "--directory",
+            "/Users/katelatte/projects/mcp-memgraph",
+            "run",
+            "server.py"
+        ],
+        "env": {
+            "MEMGRAPH_URI": "bolt://custom-host:7687",
+            "MEMGRAPH_USER": "your_username",
+            "MEMGRAPH_PASSWORD": "your_password"
+        }
+     }
+   }
+}
+```
 > [!NOTE]  
 > You may need to put the full path to the uv executable in the command field. You can get this by running `which uv` on MacOS/Linux or `where uv` on Windows. Make sure you pass in the absolute path to your server.
 
